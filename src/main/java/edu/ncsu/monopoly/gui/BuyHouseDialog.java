@@ -50,12 +50,7 @@ public class BuyHouseDialog extends JDialog {
 	}
 	
 	private JComboBox<String> buildNumberComboBox() {
-		cboNumber = new JComboBox<String>(new Integer[]{
-				new Integer(1),
-				new Integer(2),
-				new Integer(3),
-				new Integer(4),
-				new Integer(5)});
+		cboNumber = new JComboBox<String>();
 		return cboNumber;
 	}
 
