@@ -1,7 +1,7 @@
 addons:
 	sonarcloud:
-		organization: reibaxla
-		token:083244dfcdb338f30d440c7f13ae4ea6d4ed9fda
+		organization: "reibaxla"
+		token: "083244dfcdb338f30d440c7f13ae4ea6d4ed9fda"
 	script:
 	# the following command line builds the project, runs the tests with coverage
 	#and    then    execute    the    SonarCloud    analysis
