@@ -5,6 +5,7 @@ public abstract class Cell {
 	private String name;
 	protected Player owner;
 
+	
 	public String getName() {
 		return name;
 	}
